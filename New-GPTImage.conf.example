@@ -1,0 +1,1075 @@
+{
+    "defaultModel": "gpt-image-2",
+    "models": {
+        "gpt-image-2": {
+            "active": true,
+            "endpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/openai/v1/images/generations",
+            "editEndpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/openai/deployments/gpt-image-2/images/edits?api-version=2025-04-01-preview",
+            "failoverEndpoint": "",
+            "failoverEditEndpoint": "",
+            "apiKey": "PASTE-YOUR-API-KEY-HERE",
+            "deployment": "gpt-image-2",
+            "shortName": "GPT|2",
+            "supportsInpainting": true,
+            "supportsInputFidelity": false,
+            "supportsBackground": false,
+            "qualityRating": 1385.0,
+            "speedRating": 114.0,
+            "pricing": {
+                "imagePerUnitUsd": 0.0,
+                "lastUpdated": "2026-06-17",
+                "lastUpdatedSource": "api-relaxed",
+                "meters": {
+                    "inputText": 5.0,
+                    "cachedInputText": 1.25,
+                    "inputImage": 8.0,
+                    "cachedInputImage": 2.0,
+                    "outputText": 0.0,
+                    "outputImage": 30.0
+                }
+            },
+            "pricingMapping": {
+                "officialName": "GPT-Image-2 Global",
+                "providerTab": "aoai",
+                "serviceName": "Azure OpenAI",
+                "armRegionName": "eastus2",
+                "productHints": [
+                    "Azure OpenAI Media",
+                    "GPT-Image-2 Global",
+                    "GPT-Image-2",
+                    "gpt-image-2",
+                    "GPT Image 2",
+                    "gpt image 2"
+                ],
+                "meterRoles": {
+                    "inputText": [
+                        "Image 2 txt inp Gl",
+                        "Input Text",
+                        "Inpt"
+                    ],
+                    "cachedInputText": [
+                        "Image 2 txt cd inp Gl",
+                        "Cached Input Text",
+                        "cchd Inpt"
+                    ],
+                    "inputImage": [
+                        "Image 2 img inp Gl",
+                        "Input Image",
+                        "Input Img"
+                    ],
+                    "cachedInputImage": [
+                        "Image 2 img cd inp Gl",
+                        "Cached Input Image",
+                        "Cached Input Img"
+                    ],
+                    "outputText": [
+                        "Image 2 txt opt Gl",
+                        "Output Text",
+                        "Outpt Text"
+                    ],
+                    "outputImage": [
+                        "Image 2 img opt Gl",
+                        "Output Image",
+                        "Outpt Img"
+                    ]
+                },
+                "pricingPageUrl": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
+            },
+            "qualityArenaAlias": "gpt-image-2 (medium)",
+            "qualityRatingLastUpdate": "2026-06-12",
+            "speedRatingLastUpdate": "2026-06-12",
+            "apiSchema": "openai-images",
+            "supportsEdit": true,
+            "operationalParams": {
+                "maxImages": 10,
+                "maxImagesEnforce": true,
+                "allowedSizes": [],
+                "allowedSizesEnforce": false,
+                "minSide": 0,
+                "maxSide": 3840,
+                "maxArea": 0,
+                "sizeRulesEnforce": true,
+                "maxReferenceImages": 16,
+                "maxReferenceImagesEnforce": false,
+                "allowedQuality": [
+                    "low",
+                    "medium",
+                    "high",
+                    "auto"
+                ],
+                "allowedQualityEnforce": true,
+                "allowedFormat": [
+                    "png",
+                    "jpg"
+                ],
+                "allowedFormatEnforce": true,
+                "sizeDivisibleBy": 16,
+                "aspectRatioMin": 0.333,
+                "aspectRatioMax": 3.0
+            }
+        },
+        "MAI-Image-2e": {
+            "active": true,
+            "endpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/mai/v1/images/generations",
+            "editEndpoint": "",
+            "failoverEndpoint": "",
+            "failoverEditEndpoint": "",
+            "apiKey": "PASTE-YOUR-API-KEY-HERE",
+            "deployment": "MAI-Image-2e",
+            "shortName": "MAI|2e",
+            "supportsInpainting": false,
+            "supportsInputFidelity": false,
+            "supportsBackground": false,
+            "qualityRating": 1183.0,
+            "speedRating": 15.0,
+            "pricing": {
+                "imagePerUnitUsd": 0.0,
+                "lastUpdated": "2026-06-17",
+                "lastUpdatedSource": "api-relaxed",
+                "meters": {
+                    "input": 5.5,
+                    "output": 33.0
+                }
+            },
+            "pricingMapping": {
+                "officialName": "MAI-Image-2-Efficient Global",
+                "providerTab": "microsoft",
+                "serviceName": "Azure AI Foundry",
+                "armRegionName": "eastus",
+                "productHints": [
+                    "MAI-Image-2-Efficient",
+                    "MAI Image 2 Efficient",
+                    "MAI-Image-2-Efficient Global",
+                    "MAI-Image-2e",
+                    "MAI Models",
+                    "MAI"
+                ],
+                "meterRoles": {
+                    "input": [
+                        "Input",
+                        "Text Input",
+                        "Inpt"
+                    ],
+                    "output": [
+                        "Output",
+                        "Image Output",
+                        "Outpt Img"
+                    ]
+                },
+                "pricingPageUrl": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/microsoft/"
+            },
+            "qualityArenaAlias": "",
+            "qualityRatingLastUpdate": "2026-06-12",
+            "speedRatingLastUpdate": "2026-06-12",
+            "apiSchema": "mai-images",
+            "supportsEdit": false,
+            "operationalParams": {
+                "maxImages": 1,
+                "maxImagesEnforce": false,
+                "allowedSizes": [],
+                "allowedSizesEnforce": false,
+                "minSide": 768,
+                "maxSide": 0,
+                "maxArea": 1048576,
+                "sizeRulesEnforce": true,
+                "maxReferenceImages": 0,
+                "maxReferenceImagesEnforce": true,
+                "allowedQuality": [],
+                "allowedQualityEnforce": false,
+                "allowedFormat": [],
+                "allowedFormatEnforce": false,
+                "sizeDivisibleBy": 0,
+                "aspectRatioMin": 0.0,
+                "aspectRatioMax": 0.0
+            }
+        },
+        "gpt-image-1.5": {
+            "active": true,
+            "endpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/openai/v1/images/generations",
+            "editEndpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/openai/deployments/gpt-image-1.5/images/edits?api-version=2025-04-01-preview",
+            "failoverEndpoint": "",
+            "failoverEditEndpoint": "",
+            "apiKey": "PASTE-YOUR-API-KEY-HERE",
+            "deployment": "gpt-image-1.5",
+            "shortName": "GPT|1.5",
+            "supportsInpainting": true,
+            "supportsInputFidelity": true,
+            "supportsBackground": true,
+            "qualityRating": 1241.0,
+            "speedRating": 31.5,
+            "pricing": {
+                "imagePerUnitUsd": 0.0,
+                "lastUpdated": "2026-06-17",
+                "lastUpdatedSource": "scraping",
+                "meters": {
+                    "inputText": 5.0,
+                    "cachedInputText": 1.25,
+                    "inputImage": 8.0,
+                    "cachedInputImage": 2.0,
+                    "outputText": 10.0,
+                    "outputImage": 32.0
+                }
+            },
+            "pricingMapping": {
+                "officialName": "GPT-Image-1.5 Global",
+                "providerTab": "aoai",
+                "serviceName": "Azure OpenAI",
+                "armRegionName": "eastus2",
+                "productHints": [
+                    "Azure OpenAI Media",
+                    "GPT-Image-1.5 Global",
+                    "GPT-Image-1.5",
+                    "gpt-image-1.5",
+                    "GPT Image 1.5 Global",
+                    "GPT Image 1.5",
+                    "gpt image 1.5"
+                ],
+                "meterRoles": {
+                    "inputText": [
+                        "Image 1.5 txt inp Gl",
+                        "Input Text",
+                        "Inpt"
+                    ],
+                    "cachedInputText": [
+                        "Image 1.5 txt cd inp Gl",
+                        "Cached Input Text"
+                    ],
+                    "inputImage": [
+                        "Image 1.5 img inp Gl",
+                        "Input Image"
+                    ],
+                    "cachedInputImage": [
+                        "Image 1.5 img cd inp Gl",
+                        "Cached Input Image"
+                    ],
+                    "outputText": [
+                        "Image 1.5 txt opt Gl",
+                        "Output Text"
+                    ],
+                    "outputImage": [
+                        "Image 1.5 img opt Gl",
+                        "Output Image"
+                    ]
+                },
+                "pricingPageUrl": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/"
+            },
+            "qualityArenaAlias": "gpt-image-1.5-high-fidelity",
+            "qualityRatingLastUpdate": "2026-06-12",
+            "speedRatingLastUpdate": "2026-06-12",
+            "apiSchema": "openai-images",
+            "supportsEdit": true,
+            "operationalParams": {
+                "maxImages": 10,
+                "maxImagesEnforce": true,
+                "allowedSizes": [
+                    "1024x1024",
+                    "1024x1536",
+                    "1536x1024",
+                    "auto"
+                ],
+                "allowedSizesEnforce": true,
+                "minSide": 0,
+                "maxSide": 0,
+                "maxArea": 0,
+                "sizeRulesEnforce": false,
+                "maxReferenceImages": 16,
+                "maxReferenceImagesEnforce": false,
+                "allowedQuality": [
+                    "low",
+                    "medium",
+                    "high",
+                    "auto"
+                ],
+                "allowedQualityEnforce": true,
+                "allowedFormat": [
+                    "png",
+                    "jpg"
+                ],
+                "allowedFormatEnforce": true,
+                "sizeDivisibleBy": 0,
+                "aspectRatioMin": 0.0,
+                "aspectRatioMax": 0.0
+            }
+        },
+        "FLUX.2-pro": {
+            "active": true,
+            "apiSchema": "bfl-flux",
+            "supportsEdit": true,
+            "endpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/providers/blackforestlabs/v1/flux-2-pro?api-version=preview",
+            "editEndpoint": "",
+            "failoverEndpoint": "",
+            "failoverEditEndpoint": "",
+            "apiKey": "PASTE-YOUR-API-KEY-HERE",
+            "deployment": "FLUX.2-pro",
+            "shortName": "FLUX|2 pro",
+            "supportsInpainting": false,
+            "supportsInputFidelity": false,
+            "supportsBackground": false,
+            "qualityRating": 1156.0,
+            "qualityArenaAlias": "flux-2-pro",
+            "qualityRatingLastUpdate": "2026-06-12",
+            "speedRating": 6.0,
+            "speedRatingLastUpdate": "2026-06-12",
+            "pricing": {
+                "imagePerUnitUsd": 0.0,
+                "lastUpdated": "2026-06-17",
+                "lastUpdatedSource": "api-relaxed",
+                "meters": {
+                    "firstMpUsd": 0.033,
+                    "additionalMpUsd": 0.0165,
+                    "referenceMpUsd": 0.015
+                }
+            },
+            "pricingMapping": {
+                "officialName": "Flux 2 Pro MP",
+                "providerTab": "blackforestlabs",
+                "serviceName": "Azure AI Foundry",
+                "armRegionName": "eastus2",
+                "productHints": [
+                    "FLUX.2 pro",
+                    "FLUX.2-pro",
+                    "FLUX 2 pro",
+                    "Flux 2 Pro Initial MP",
+                    "Black Forest Labs",
+                    "Flux 2 Pro MP",
+                    "FLUX"
+                ],
+                "meterRoles": {
+                    "firstMpUsd": [
+                        "Flux 2 Pro Initial MP",
+                        "Initial MP",
+                        "First Megapixel",
+                        "First MP"
+                    ],
+                    "additionalMpUsd": [
+                        "Flux 2 Pro MP",
+                        "Additional Megapixel",
+                        "Subsequent Megapixel"
+                    ],
+                    "referenceMpUsd": [
+                        "Flux 2 Ref MP",
+                        "Ref MP",
+                        "Reference Megapixel",
+                        "Reference image"
+                    ]
+                },
+                "pricingPageUrl": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/black-forest-labs/"
+            },
+            "operationalParams": {
+                "maxImages": 4,
+                "maxImagesEnforce": false,
+                "allowedSizes": [],
+                "allowedSizesEnforce": false,
+                "minSide": 256,
+                "maxSide": 4096,
+                "maxArea": 0,
+                "sizeRulesEnforce": false,
+                "maxReferenceImages": 8,
+                "maxReferenceImagesEnforce": true,
+                "allowedQuality": [],
+                "allowedQualityEnforce": false,
+                "allowedFormat": [],
+                "allowedFormatEnforce": false,
+                "sizeDivisibleBy": 0,
+                "aspectRatioMin": 0.0,
+                "aspectRatioMax": 0.0
+            }
+        },
+        "MAI-Image-2.5": {
+            "active": true,
+            "endpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/mai/v1/images/generations",
+            "editEndpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/mai/v1/images/edits",
+            "failoverEndpoint": "",
+            "failoverEditEndpoint": "",
+            "apiKey": "PASTE-YOUR-API-KEY-HERE",
+            "deployment": "MAI-Image-2.5",
+            "shortName": "MAI|2.5",
+            "supportsInpainting": false,
+            "supportsInputFidelity": false,
+            "supportsBackground": false,
+            "qualityRating": 1253.0,
+            "speedRating": 15.0,
+            "pricing": {
+                "imagePerUnitUsd": 0.0,
+                "lastUpdated": "2026-06-17",
+                "lastUpdatedSource": "api-relaxed",
+                "meters": {
+                    "input": 5.5,
+                    "output": 33.0
+                }
+            },
+            "pricingMapping": {
+                "officialName": "MAI-Image-2.5 Global",
+                "providerTab": "microsoft",
+                "serviceName": "Azure AI Foundry",
+                "armRegionName": "eastus",
+                "productHints": [
+                    "MAI-Image-2.5",
+                    "MAI Image 2.5",
+                    "MAI-Image-2.5 Global",
+                    "MAI Models",
+                    "MAI"
+                ],
+                "meterRoles": {
+                    "input": [
+                        "Input",
+                        "Text Input",
+                        "Inpt"
+                    ],
+                    "output": [
+                        "Output",
+                        "Image Output",
+                        "Outpt Img"
+                    ]
+                },
+                "pricingPageUrl": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/microsoft/"
+            },
+            "qualityArenaAlias": "",
+            "qualityRatingLastUpdate": "2026-06-12",
+            "speedRatingLastUpdate": "2026-06-12",
+            "apiSchema": "mai-images",
+            "supportsEdit": true,
+            "operationalParams": {
+                "maxImages": 1,
+                "maxImagesEnforce": false,
+                "allowedSizes": [],
+                "allowedSizesEnforce": false,
+                "minSide": 768,
+                "maxSide": 0,
+                "maxArea": 1048576,
+                "sizeRulesEnforce": true,
+                "maxReferenceImages": 1,
+                "maxReferenceImagesEnforce": true,
+                "allowedQuality": [],
+                "allowedQualityEnforce": false,
+                "allowedFormat": [],
+                "allowedFormatEnforce": false,
+                "sizeDivisibleBy": 0,
+                "aspectRatioMin": 0.0,
+                "aspectRatioMax": 0.0
+            }
+        },
+        "MAI-Image-2.5-Flash": {
+            "active": true,
+            "endpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/mai/v1/images/generations",
+            "editEndpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/mai/v1/images/edits",
+            "failoverEndpoint": "",
+            "failoverEditEndpoint": "",
+            "apiKey": "PASTE-YOUR-API-KEY-HERE",
+            "deployment": "MAI-Image-2.5-Flash",
+            "shortName": "MAI|2.5 Fl",
+            "supportsInpainting": false,
+            "supportsInputFidelity": false,
+            "supportsBackground": false,
+            "qualityRating": 1183.0,
+            "speedRating": 12.0,
+            "pricing": {
+                "imagePerUnitUsd": 0.0,
+                "lastUpdated": "2026-06-17",
+                "lastUpdatedSource": "api-relaxed",
+                "meters": {
+                    "input": 5.5,
+                    "output": 33.0
+                }
+            },
+            "pricingMapping": {
+                "officialName": "MAI-Image-2.5-Flash Global",
+                "providerTab": "microsoft",
+                "serviceName": "Azure AI Foundry",
+                "armRegionName": "eastus",
+                "productHints": [
+                    "MAI-Image-2.5-Flash",
+                    "MAI Image 2.5 Flash",
+                    "MAI-Image-2.5-Flash Global",
+                    "MAI Models",
+                    "MAI"
+                ],
+                "meterRoles": {
+                    "input": [
+                        "Input",
+                        "Text Input",
+                        "Inpt"
+                    ],
+                    "output": [
+                        "Output",
+                        "Image Output",
+                        "Outpt Img"
+                    ]
+                },
+                "pricingPageUrl": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/microsoft/"
+            },
+            "qualityArenaAlias": "",
+            "qualityRatingLastUpdate": "2026-06-12",
+            "speedRatingLastUpdate": "2026-06-12",
+            "apiSchema": "mai-images",
+            "supportsEdit": true,
+            "operationalParams": {
+                "maxImages": 1,
+                "maxImagesEnforce": false,
+                "allowedSizes": [],
+                "allowedSizesEnforce": false,
+                "minSide": 768,
+                "maxSide": 0,
+                "maxArea": 1048576,
+                "sizeRulesEnforce": true,
+                "maxReferenceImages": 1,
+                "maxReferenceImagesEnforce": true,
+                "allowedQuality": [],
+                "allowedQualityEnforce": false,
+                "allowedFormat": [],
+                "allowedFormatEnforce": false,
+                "sizeDivisibleBy": 0,
+                "aspectRatioMin": 0.0,
+                "aspectRatioMax": 0.0
+            }
+        }
+    },
+    "defaultSize": "1024x1024",
+    "defaultQuality": "high",
+    "defaultOutputFolder": "C:/Users/YourName/Pictures/New-GPTImage",
+    "defaultOutputCompression": 90,
+    "defaultModeration": "low",
+    "defaultMaxImageDimension": 4096,
+    "defaultFormat": "png",
+    "defaultBackground": "auto",
+    "fileNameTemplate": "img_{timestamp}_{index}_{promptHash}",
+    "maxRetries": 5,
+    "logEncryption": false,
+    "privacy": {
+        "imagePrompts": false,
+        "supportPrompts": false
+    },
+    "textModel": {
+        "endpoint": "https://YOUR-FOUNDRY-RESOURCE.services.ai.azure.com/openai/v1/responses",
+        "apiKey": "PASTE-YOUR-API-KEY-HERE",
+        "model": "gpt-5.4-pro",
+        "authMode": "bearer",
+        "maxCompletionTokens": 8192,
+        "reasoningEffort": "medium",
+        "timeoutSec": 600,
+        "inputUsdPerMillion": 30,
+        "outputUsdPerMillion": 180
+    },
+    "requestTimeoutMinutes": 10,
+    "maxStatsRecordsToRead": 1000,
+    "knnK": 5,
+    "knnMinRecords": 20,
+    "segmentMinRecords": 5,
+    "maxLogFileSizeMB": 5,
+    "logRetentionDays": 365,
+    "metadata": false,
+    "batchThreads": 1,
+    "usdToEurRate": 0.87207,
+    "usdToEurLastUpdate": "",
+    "pricingLastUpdated": "",
+    "pricingUpdate": {
+        "enabled": true,
+        "timeoutSec": 15,
+        "writeDiscoveryFile": true,
+        "frequencyDays": 7
+    },
+    "defaultCurrency": "EUR",
+    "defaultCurrencyLastCheck": "",
+    "language": "it",
+    "standardFile": "New-GPTImage.md",
+    "autoUpdate": {
+        "arenaUrl": "https://arena.ai/leaderboard/text-to-image",
+        "arenaTimeoutSec": 15,
+        "qualityRefreshDays": 7,
+        "timeRefreshDays": 7,
+        "timeMinRecords": 3,
+        "timeMaxRecords": 50
+    },
+    "telemetry": {
+        "azureMonitor": true,
+        "connectionString": "InstrumentationKey=00000000-0000-0000-0000-000000000000;IngestionEndpoint=https://YOUR-REGION.in.applicationinsights.azure.com/"
+    },
+    "tui": {
+        "scrollbackLines": 4000,
+        "commandHistorySize": 100,
+        "showHints": true,
+        "clockFormat": "ddd dd MMM yyyy HH:mm:ss",
+        "editorConfirmKey": "F2",
+        "progressBarWidth": 34,
+        "theme": "midnight",
+        "themes": {
+            "midnight": {
+                "header": {
+                    "background": "Black",
+                    "clockLabel": "Cyan",
+                    "clockValue": "White",
+                    "sessionLabel": "DarkCyan",
+                    "sessionValue": "White",
+                    "linesLabel": "DarkCyan",
+                    "linesValue": "White"
+                },
+                "body": {
+                    "background": "Black",
+                    "text": "Gray",
+                    "info": "Cyan",
+                    "success": "Green",
+                    "warning": "Yellow",
+                    "error": "Red",
+                    "commandEcho": "Magenta"
+                },
+                "separator": {
+                    "foreground": "DarkGray",
+                    "background": "Black"
+                },
+                "statusBar1": {
+                    "background": "DarkCyan",
+                    "label": "Black",
+                    "value": "White"
+                },
+                "statusBar2": {
+                    "background": "DarkBlue",
+                    "label": "Gray",
+                    "value": "White"
+                },
+                "commandLine": {
+                    "background": "DarkGray",
+                    "prompt": "White",
+                    "input": "White",
+                    "hint": "Gray"
+                },
+                "editor": {
+                    "titleBackground": "DarkBlue",
+                    "titleForeground": "White",
+                    "lineNumber": "DarkGray",
+                    "text": "Gray",
+                    "background": "Black"
+                },
+                "progress": {
+                    "background": "DarkCyan",
+                    "label": "Black",
+                    "value": "White",
+                    "bar": "White"
+                }
+            },
+            "forest": {
+                "header": {
+                    "background": "Black",
+                    "clockLabel": "DarkGreen",
+                    "clockValue": "Gray",
+                    "sessionLabel": "Green",
+                    "sessionValue": "White",
+                    "linesLabel": "Green",
+                    "linesValue": "White"
+                },
+                "body": {
+                    "background": "Black",
+                    "text": "Gray",
+                    "info": "DarkCyan",
+                    "success": "Green",
+                    "warning": "Yellow",
+                    "error": "Red",
+                    "commandEcho": "Cyan"
+                },
+                "separator": {
+                    "foreground": "DarkGreen",
+                    "background": "Black"
+                },
+                "statusBar1": {
+                    "background": "DarkGreen",
+                    "label": "Black",
+                    "value": "White"
+                },
+                "statusBar2": {
+                    "background": "DarkCyan",
+                    "label": "Black",
+                    "value": "White"
+                },
+                "commandLine": {
+                    "background": "DarkGray",
+                    "prompt": "Green",
+                    "input": "White",
+                    "hint": "Gray"
+                },
+                "editor": {
+                    "titleBackground": "DarkGreen",
+                    "titleForeground": "White",
+                    "lineNumber": "DarkGray",
+                    "text": "Gray",
+                    "background": "Black"
+                },
+                "progress": {
+                    "background": "DarkGreen",
+                    "label": "Black",
+                    "value": "White",
+                    "bar": "White"
+                }
+            },
+            "amber": {
+                "header": {
+                    "background": "Black",
+                    "clockLabel": "DarkYellow",
+                    "clockValue": "Yellow",
+                    "sessionLabel": "Yellow",
+                    "sessionValue": "White",
+                    "linesLabel": "Yellow",
+                    "linesValue": "White"
+                },
+                "body": {
+                    "background": "Black",
+                    "text": "Gray",
+                    "info": "DarkYellow",
+                    "success": "Green",
+                    "warning": "Yellow",
+                    "error": "Red",
+                    "commandEcho": "Yellow"
+                },
+                "separator": {
+                    "foreground": "DarkYellow",
+                    "background": "Black"
+                },
+                "statusBar1": {
+                    "background": "DarkYellow",
+                    "label": "Black",
+                    "value": "White"
+                },
+                "statusBar2": {
+                    "background": "DarkGray",
+                    "label": "Yellow",
+                    "value": "White"
+                },
+                "commandLine": {
+                    "background": "DarkGray",
+                    "prompt": "Yellow",
+                    "input": "White",
+                    "hint": "Gray"
+                },
+                "editor": {
+                    "titleBackground": "DarkYellow",
+                    "titleForeground": "Black",
+                    "lineNumber": "DarkGray",
+                    "text": "Gray",
+                    "background": "Black"
+                },
+                "progress": {
+                    "background": "DarkYellow",
+                    "label": "Black",
+                    "value": "White",
+                    "bar": "White"
+                }
+            },
+            "arctic": {
+                "header": {
+                    "background": "Black",
+                    "clockLabel": "Cyan",
+                    "clockValue": "White",
+                    "sessionLabel": "Cyan",
+                    "sessionValue": "White",
+                    "linesLabel": "Cyan",
+                    "linesValue": "White"
+                },
+                "body": {
+                    "background": "Black",
+                    "text": "White",
+                    "info": "Cyan",
+                    "success": "Green",
+                    "warning": "Yellow",
+                    "error": "Red",
+                    "commandEcho": "Blue"
+                },
+                "separator": {
+                    "foreground": "DarkCyan",
+                    "background": "Black"
+                },
+                "statusBar1": {
+                    "background": "DarkBlue",
+                    "label": "Cyan",
+                    "value": "White"
+                },
+                "statusBar2": {
+                    "background": "DarkCyan",
+                    "label": "Black",
+                    "value": "White"
+                },
+                "commandLine": {
+                    "background": "Black",
+                    "prompt": "Cyan",
+                    "input": "White",
+                    "hint": "DarkCyan"
+                },
+                "editor": {
+                    "titleBackground": "DarkBlue",
+                    "titleForeground": "White",
+                    "lineNumber": "DarkCyan",
+                    "text": "White",
+                    "background": "Black"
+                },
+                "progress": {
+                    "background": "DarkBlue",
+                    "label": "Cyan",
+                    "value": "White",
+                    "bar": "Cyan"
+                }
+            },
+            "paper": {
+                "header": {
+                    "background": "Gray",
+                    "clockLabel": "DarkBlue",
+                    "clockValue": "Black",
+                    "sessionLabel": "DarkBlue",
+                    "sessionValue": "Black",
+                    "linesLabel": "DarkBlue",
+                    "linesValue": "Black"
+                },
+                "body": {
+                    "background": "Gray",
+                    "text": "Black",
+                    "info": "DarkBlue",
+                    "success": "DarkGreen",
+                    "warning": "DarkRed",
+                    "error": "Red",
+                    "commandEcho": "DarkMagenta"
+                },
+                "separator": {
+                    "foreground": "DarkGray",
+                    "background": "Gray"
+                },
+                "statusBar1": {
+                    "background": "DarkBlue",
+                    "label": "Gray",
+                    "value": "White"
+                },
+                "statusBar2": {
+                    "background": "DarkGray",
+                    "label": "Gray",
+                    "value": "White"
+                },
+                "commandLine": {
+                    "background": "Gray",
+                    "prompt": "DarkBlue",
+                    "input": "Black",
+                    "hint": "DarkGray"
+                },
+                "editor": {
+                    "titleBackground": "DarkBlue",
+                    "titleForeground": "White",
+                    "lineNumber": "DarkGray",
+                    "text": "Black",
+                    "background": "Gray"
+                },
+                "progress": {
+                    "background": "DarkBlue",
+                    "label": "Gray",
+                    "value": "White",
+                    "bar": "White"
+                }
+            },
+            "matrix": {
+                "header": {
+                    "background": "Black",
+                    "clockLabel": "DarkGreen",
+                    "clockValue": "Green",
+                    "sessionLabel": "DarkGreen",
+                    "sessionValue": "Green",
+                    "linesLabel": "DarkGreen",
+                    "linesValue": "Green"
+                },
+                "body": {
+                    "background": "Black",
+                    "text": "Green",
+                    "info": "White",
+                    "success": "Green",
+                    "warning": "Yellow",
+                    "error": "Red",
+                    "commandEcho": "Cyan"
+                },
+                "separator": {
+                    "foreground": "DarkGreen",
+                    "background": "Black"
+                },
+                "statusBar1": {
+                    "background": "DarkGreen",
+                    "label": "Black",
+                    "value": "White"
+                },
+                "statusBar2": {
+                    "background": "Black",
+                    "label": "DarkGreen",
+                    "value": "Green"
+                },
+                "commandLine": {
+                    "background": "Black",
+                    "prompt": "Green",
+                    "input": "Green",
+                    "hint": "DarkGreen"
+                },
+                "editor": {
+                    "titleBackground": "DarkGreen",
+                    "titleForeground": "Black",
+                    "lineNumber": "DarkGreen",
+                    "text": "Green",
+                    "background": "Black"
+                },
+                "progress": {
+                    "background": "DarkGreen",
+                    "label": "Black",
+                    "value": "White",
+                    "bar": "Green"
+                }
+            },
+            "dracula": {
+                "header": {
+                    "background": "Black",
+                    "clockLabel": "Magenta",
+                    "clockValue": "White",
+                    "sessionLabel": "Magenta",
+                    "sessionValue": "White",
+                    "linesLabel": "Magenta",
+                    "linesValue": "White"
+                },
+                "body": {
+                    "background": "Black",
+                    "text": "White",
+                    "info": "Magenta",
+                    "success": "Green",
+                    "warning": "Yellow",
+                    "error": "Red",
+                    "commandEcho": "Cyan"
+                },
+                "separator": {
+                    "foreground": "DarkMagenta",
+                    "background": "Black"
+                },
+                "statusBar1": {
+                    "background": "DarkMagenta",
+                    "label": "Yellow",
+                    "value": "White"
+                },
+                "statusBar2": {
+                    "background": "DarkBlue",
+                    "label": "Magenta",
+                    "value": "White"
+                },
+                "commandLine": {
+                    "background": "Black",
+                    "prompt": "Magenta",
+                    "input": "White",
+                    "hint": "DarkMagenta"
+                },
+                "editor": {
+                    "titleBackground": "DarkMagenta",
+                    "titleForeground": "White",
+                    "lineNumber": "DarkMagenta",
+                    "text": "White",
+                    "background": "Black"
+                },
+                "progress": {
+                    "background": "DarkMagenta",
+                    "label": "Yellow",
+                    "value": "White",
+                    "bar": "Magenta"
+                }
+            },
+            "ocean": {
+                "header": {
+                    "background": "Black",
+                    "clockLabel": "Blue",
+                    "clockValue": "Cyan",
+                    "sessionLabel": "Blue",
+                    "sessionValue": "Cyan",
+                    "linesLabel": "Blue",
+                    "linesValue": "Cyan"
+                },
+                "body": {
+                    "background": "Black",
+                    "text": "Gray",
+                    "info": "Cyan",
+                    "success": "Green",
+                    "warning": "Yellow",
+                    "error": "Red",
+                    "commandEcho": "Blue"
+                },
+                "separator": {
+                    "foreground": "DarkBlue",
+                    "background": "Black"
+                },
+                "statusBar1": {
+                    "background": "DarkCyan",
+                    "label": "Black",
+                    "value": "White"
+                },
+                "statusBar2": {
+                    "background": "DarkBlue",
+                    "label": "Cyan",
+                    "value": "White"
+                },
+                "commandLine": {
+                    "background": "Black",
+                    "prompt": "Cyan",
+                    "input": "White",
+                    "hint": "DarkCyan"
+                },
+                "editor": {
+                    "titleBackground": "DarkCyan",
+                    "titleForeground": "Black",
+                    "lineNumber": "DarkBlue",
+                    "text": "White",
+                    "background": "Black"
+                },
+                "progress": {
+                    "background": "DarkCyan",
+                    "label": "Black",
+                    "value": "White",
+                    "bar": "Cyan"
+                }
+            },
+            "contrast": {
+                "header": {
+                    "background": "Black",
+                    "clockLabel": "Yellow",
+                    "clockValue": "White",
+                    "sessionLabel": "Yellow",
+                    "sessionValue": "White",
+                    "linesLabel": "Yellow",
+                    "linesValue": "White"
+                },
+                "body": {
+                    "background": "Black",
+                    "text": "White",
+                    "info": "Yellow",
+                    "success": "Green",
+                    "warning": "Yellow",
+                    "error": "Red",
+                    "commandEcho": "Cyan"
+                },
+                "separator": {
+                    "foreground": "Gray",
+                    "background": "Black"
+                },
+                "statusBar1": {
+                    "background": "Gray",
+                    "label": "Black",
+                    "value": "Black"
+                },
+                "statusBar2": {
+                    "background": "DarkGray",
+                    "label": "Yellow",
+                    "value": "White"
+                },
+                "commandLine": {
+                    "background": "Black",
+                    "prompt": "Yellow",
+                    "input": "White",
+                    "hint": "Gray"
+                },
+                "editor": {
+                    "titleBackground": "Gray",
+                    "titleForeground": "Black",
+                    "lineNumber": "Gray",
+                    "text": "White",
+                    "background": "Black"
+                },
+                "progress": {
+                    "background": "Gray",
+                    "label": "Black",
+                    "value": "Black",
+                    "bar": "Black"
+                }
+            }
+        }
+    }
+}

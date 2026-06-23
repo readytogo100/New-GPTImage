@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "prompt": "Editorial fashion portrait of a young East Asian woman in her late twenties, sleek black bob haircut, wearing a minimalist cream silk blouse, soft natural daylight from a large studio window, neutral grey backdrop, shot on medium format with shallow depth of field, ultra-sharp focus on the eyes, magazine cover quality, photorealistic",
+        "size": "1024x1536",
+        "quality": "high",
+        "format": "png"
+    },
+    {
+        "id": 2,
+        "prompt": "Black and white street photography of an elegant elderly Italian woman with silver hair pulled back, wearing a long wool coat, walking through a misty Milan piazza at dawn, cinematic chiaroscuro lighting, deep shadows and luminous highlights, grain texture reminiscent of Tri-X film, atmospheric and timeless",
+        "size": "1536x1024",
+        "quality": "high",
+        "format": "png"
+    },
+    {
+        "id": 3,
+        "prompt": "Cyberpunk Tokyo alleyway at night, neon signs in Japanese kanji reflecting on wet pavement, a Black female model in her thirties with intricate braided hair, wearing a translucent rain-jacket and metallic accessories, vibrant pink and electric blue color palette, fog, volumetric light beams, Blade Runner aesthetic, cinematic 35mm",
+        "size": "1024x1536",
+        "quality": "high",
+        "format": "png",
+        "n": 2
+    },
+    {
+        "id": 4,
+        "prompt": "Renaissance oil painting style portrait of a young Latina woman with deep brown eyes and flowing dark curly hair, wearing a velvet emerald-green dress with gold embroidery, holding a single white lily, soft Caravaggio-style chiaroscuro on dark background, ornate baroque framing implied, museum-quality detail and brushwork",
+        "size": "1024x1536",
+        "quality": "high",
+        "format": "png"
+    },
+    {
+        "id": 5,
+        "prompt": "Sun-drenched Moroccan rooftop in Chefchaouen at golden hour, an Arab woman in her mid-twenties wearing a flowing turquoise kaftan and silver jewelry, leaning against a blue-painted wall, sweeping view of blue medina houses below, warm cinematic color grading, photojournalistic National Geographic style, sharp foreground bokeh background",
+        "size": "1536x1024",
+        "quality": "high",
+        "format": "jpg"
+    },
+    {
+        "id": 6,
+        "prompt": "Minimalist monochrome studio portrait of a Nordic woman with platinum-blonde pixie cut and pale blue eyes, profile view, even softbox lighting, light grey seamless background, wearing a simple white t-shirt, ultra-fine skin detail, fashion editorial style, large negative space composition",
+        "size": "1024x1024",
+        "quality": "high",
+        "format": "png"
+    },
+    {
+        "id": 7,
+        "prompt": "Vintage 1970s Parisian cafe interior at midnight, warm tungsten lighting on wooden booths, a young Indian woman with long dark hair and a deep maroon turtleneck sweater sitting alone reading a book, steam rising from an espresso cup, film grain, Kodachrome color palette, slightly soft focus, melancholic and intimate atmosphere",
+        "size": "1536x1024",
+        "quality": "high",
+        "format": "png"
+    },
+    {
+        "id": 8,
+        "prompt": "High-fashion editorial black and white photograph of an Afro-Caribbean woman with natural curls styled in an artistic crown, wearing a sculptural avant-garde dress, dramatic side lighting from a single source, deep blacks and luminous whites, Richard Avedon influence, plain white seamless backdrop, full body shot",
+        "size": "1024x1536",
+        "quality": "high",
+        "format": "png"
+    },
+    {
+        "id": 9,
+        "prompt": "Cozy Scandinavian living room in winter, large picture window showing snow falling on pine forest, a Mediterranean-looking woman in her thirties wrapped in a chunky cream wool blanket, reading by a stone fireplace, soft amber firelight, hygge aesthetic, painterly photo realism, warm color palette",
+        "size": "1536x1024",
+        "quality": "medium",
+        "format": "png"
+    },
+    {
+        "id": 10,
+        "prompt": "Surreal dreamscape painting in the style of Salvador Dali meets Studio Ghibli, floating clouds made of glass, a giant pocket watch suspended over a turquoise lake, distant cherry blossom mountains, bird-shaped origami in mid-flight, dawn pastel colors, intricate detail, fantasy art masterpiece",
+        "size": "1024x1024",
+        "quality": "high",
+        "format": "webp"
+    }
+]

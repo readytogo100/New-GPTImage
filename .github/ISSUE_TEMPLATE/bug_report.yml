@@ -1,0 +1,81 @@
+name: Bug report
+description: Report a malfunction of the script
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the report. Fill in the fields below to help us
+        reproduce and fix the problem.
+
+        **Important:** do not paste API keys, real endpoints, instrumentation
+        keys or other sensitive data. Remove or obfuscate them in the logs you attach.
+  - type: input
+    id: version
+    attributes:
+      label: Script version
+      description: "Output of: ./New-GPTImage.ps1 -Version"
+      placeholder: "e.g. 5.92"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - Linux
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: pwsh
+    attributes:
+      label: PowerShell version
+      description: "Output of: $PSVersionTable.PSVersion"
+      placeholder: "e.g. 7.6.1"
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command executed
+      description: The full command line (without sensitive data).
+      render: powershell
+      placeholder: './New-GPTImage.ps1 -Prompt "..." -Model gpt-image-2 -Size "1024x1024"'
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Observed behavior
+      description: What happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: >
+        Paste the relevant log lines, REMOVING keys, real endpoints and
+        personal paths.
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Model used, API schema, any particularities of the config.
+    validations:
+      required: false

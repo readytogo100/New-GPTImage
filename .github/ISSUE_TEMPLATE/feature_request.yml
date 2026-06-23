@@ -1,0 +1,59 @@
+name: Feature request
+description: Suggest a new feature or an improvement
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the proposal. Describe the idea as clearly as possible,
+        so its scope and usefulness can be evaluated.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: >
+        What problem would this feature solve? Is there a situation in
+        which the current script is not enough?
+      placeholder: "When I use ... I would like to be able to ... but at the moment it is not possible."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How you imagine it should work. Any parameter or command names.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches you evaluated, and why you prefer this one.
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      multiple: true
+      options:
+        - Image generation / edit
+        - TUI (interactive interface)
+        - HTML gallery
+        - Costs / pricing / analytics
+        - Models and configuration
+        - Benchmark
+        - Storyboard / text prompts
+        - Telemetry / IaC
+        - Internationalization
+        - Other
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other useful information, example or reference.
+    validations:
+      required: false

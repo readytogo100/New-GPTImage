@@ -1,0 +1,22 @@
+<!--
+  New-GPTImage.md — Standard file (optional)
+
+  If a file named New-GPTImage.md exists next to the script (the name is set by the
+  "standardFile" key in the .conf), its content is automatically appended to EVERY
+  prompt you send, after a blank line. Use it to define a default style, quality
+  directives, or constraints that should apply to all your generations without
+  retyping them each time.
+
+  To use it: copy this file to "New-GPTImage.md" and replace the example below with
+  your own text. If the file is empty or absent, nothing is appended and the prompt
+  is sent as-is.
+
+  This .example file is only a template: your real New-GPTImage.md is ignored by
+  git (see .gitignore) so your personal style directives are never published.
+
+  Remove this comment block in your real file — its content would be appended to
+  the prompt as-is.
+-->
+
+Style: cinematic, high detail, natural lighting.
+Avoid: text, watermarks, distorted anatomy.
