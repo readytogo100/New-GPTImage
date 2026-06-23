@@ -35,8 +35,9 @@ are expressed as `WIDTHxHEIGHT`; the schema supports `quality`, `moderation` and
 (`editEndpoint`). This schema uses the full six-meter pricing set.
 
 **`mai-images`** — the Microsoft MAI image family. Width and height are sent separately, the
-request body is minimal, and the schema is generation-only in its classic form (some newer
-MAI models do support edit on the same endpoint). It uses a smaller pricing set.
+request body is minimal, and it uses a smaller pricing set. Edit support varies by model: the
+older MAI-Image-2e is generation-only, while the newer MAI-Image-2.5 and 2.5-Flash support
+edit on the same endpoint (their `supportsEdit` flag is set accordingly).
 
 **`bfl-flux`** — Black Forest Labs FLUX. Authentication uses a `Bearer` header, width and
 height are separate, and editing happens on the **same** endpoint as generation, with the

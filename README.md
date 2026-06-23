@@ -10,11 +10,11 @@ hosted on Azure, with cost tracking, analytics, an HTML gallery, an interactive
 full-screen interface, multilingual output, and infrastructure provisioning — all from a
 single self-contained script.
 
-| Component                   | Version |
-|-----------------------------|---------|
-| Script                      |  5.92   |
-| TUI (interactive interface) |  0.92   |
-| Gallery (HTML gallery)      |  1.71   |
+| Component | Version |
+|-----------|---------|
+| Script    | 5.92    |
+| TUI (interactive interface) | 0.92 |
+| Gallery (HTML gallery) | 1.71 |
 
 > **License:** GNU General Public License v3.0 — see [LICENSE](LICENSE).
 > Copyright (C) 2026 Andrea D'Orio.
@@ -231,14 +231,14 @@ exists (for example, an aspect ratio that cannot fit the model's limits).
 The default configuration ships with six models across the three schemas. You can add,
 edit or remove models at any time — see the [model management guide](docs/models.md).
 
-| Model                 | API schema      | Edit support |
-|-----------------------|-----------------|--------------|
-| `gpt-image-2`         | `openai-images` |     Yes      |
-| `gpt-image-1.5`       | `openai-images` |     Yes      |
-| `MAI-Image-2e`        | `mai-images`    |      No      |
-| `MAI-Image-2.5`       | `mai-images`    |     Yes      |
-| `MAI-Image-2.5-Flash` | `mai-images`    |     Yes      |
-| `FLUX.2-pro`          | `bfl-flux`      |     Yes      |
+| Model | API schema | Edit support |
+|-------|-----------|--------------|
+| `gpt-image-2` | `openai-images` | Yes |
+| `gpt-image-1.5` | `openai-images` | Yes |
+| `MAI-Image-2e` | `mai-images` | No |
+| `MAI-Image-2.5` | `mai-images` | Yes |
+| `MAI-Image-2.5-Flash` | `mai-images` | Yes |
+| `FLUX.2-pro` | `bfl-flux` | Yes |
 
 A separate **text / multimodal model** (the `textModel` section) powers the prompt
 features — optimization, negative prompts, storyboards and image description. See the
@@ -599,7 +599,7 @@ For anything else, run with `-Verbosity verbose` and inspect the log.
 ## Contributing
 
 Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for the
-project's conventions: PowerShell 7, Italian-without-accents code comments, the baseline
+project's conventions: PowerShell 7, English code comments, the baseline
 integrity check after every change, and full 11-language coverage in the language pack.
 See [changelog.md](changelog.md) for the complete version history (0.1 → 5.92).
 
